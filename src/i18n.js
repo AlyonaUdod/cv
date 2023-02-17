@@ -10,7 +10,7 @@ const resources = {
       navigation: {
         home: 'Home',
         skills: 'Skills',
-        workExperience: 'Work experience',
+        'work-experience': 'Work experience',
         about: 'About',
         contacts: 'Contacts',
       }
@@ -21,7 +21,7 @@ const resources = {
       navigation: {
         home: 'Головна',
         skills: 'Навички',
-        workExperience: 'Досвід роботи',
+        'work-experience': 'Досвід роботи',
         about: 'Про мене',
         contacts: 'Контакти',
       }
@@ -32,7 +32,7 @@ const resources = {
       navigation: {
         home: 'Hjem',
         skills: 'Ferdigheter',
-        workExperience: 'Arbeidserfaring',
+        'work-experience': 'Arbeidserfaring',
         about: 'Om',
         contacts: 'Kontakter',
       }
@@ -44,7 +44,7 @@ i18n
   .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     resources,
-    lng: "en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
+    lng: JSON.parse(localStorage.getItem('lang')) ?? "en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
     // you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
     // if you're using a language detector, do not define the lng option
 
