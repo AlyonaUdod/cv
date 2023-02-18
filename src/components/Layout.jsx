@@ -2,7 +2,13 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import PropagateLoader from 'react-spinners/PropagateLoader';
 import Navigation from './Navigation/Navigation';
-import { HeaderMenu, StyledFooter } from './Layout.styled';
+import { useTranslation } from 'react-i18next';
+import {
+  HeaderMenu,
+  StyledFooter,
+  StyledFooterLink,
+  StyledFooterText,
+} from './Layout.styled';
 import LangMenu from './LangMenu/LangMenu';
 import { Layout, theme } from 'antd';
 import React from 'react';
@@ -14,6 +20,7 @@ export default function AppLayout() {
     token: { colorBgContainer, colorPrimary },
   } = theme.useToken();
   const { height } = useWindowSizes();
+  const { t } = useTranslation();
 
   return (
     <>
@@ -21,7 +28,7 @@ export default function AppLayout() {
         <Layout>
           <Header
             style={{
-              padding: '0 10px',
+              padding: '0 20px',
               background: colorBgContainer,
             }}
           >
@@ -47,86 +54,25 @@ export default function AppLayout() {
               </Suspense>
             </div>
           </Content>
-          <StyledFooter
-            // style={{
-            //   textAlign: 'center',
-            // }}
-          >
-            <a href='https://github.com/AlyonaUdod/cv' rel="noreferrer" target='_blank'> PDF CV </a>
-            <a href='https://github.com/AlyonaUdod/cv' rel="noreferrer" target='_blank'> Source code </a>
-            <p>Alyona Udod, 2023</p>
+          <StyledFooter style={{ padding: '24px 20px' }}>
+            <StyledFooterLink
+              href="https://drive.google.com/file/d/15FDJlYNOVPEcbCqt2x0nU04Im1uzH79S/view?usp=sharing"
+              rel="noreferrer"
+              target="_blank"
+            >
+              {t('footer.pdf-cv')}
+            </StyledFooterLink>
+            <StyledFooterLink
+              href="https://github.com/AlyonaUdod/cv"
+              rel="noreferrer"
+              target="_blank"
+            >
+{t('footer.source-code')}
+            </StyledFooterLink>
+            <StyledFooterText>{t('footer.name')}</StyledFooterText>
           </StyledFooter>
         </Layout>
       </Layout>
     </>
   );
 }
-
-// import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
-// import { Layout, Menu, theme } from 'antd';
-// import React from 'react';
-// const { Header, Content, Footer, Sider } = Layout;
-// const App = () => {
-//   const {
-//     token: { colorBgContainer },
-//   } = theme.useToken();
-//   return (
-//     <Layout>
-//       <Sider
-//         breakpoint="lg"
-//         collapsedWidth="0"
-//         onBreakpoint={(broken) => {
-//           console.log(broken);
-//         }}
-//         onCollapse={(collapsed, type) => {
-//           console.log(collapsed, type);
-//         }}
-//       >
-//         <div className="logo" />
-//         <Menu
-//           theme="dark"
-//           mode="inline"
-//           defaultSelectedKeys={['4']}
-//           items={[UserOutlined, VideoCameraOutlined, UploadOutlined, UserOutlined].map(
-//             (icon, index) => ({
-//               key: String(index + 1),
-//               icon: React.createElement(icon),
-//               label: `nav ${index + 1}`,
-//             }),
-//           )}
-//         />
-//       </Sider>
-//       <Layout>
-//         <Header
-//           style={{
-//             padding: 0,
-//             background: colorBgContainer,
-//           }}
-//         />
-//         <Content
-//           style={{
-//             margin: '24px 16px 0',
-//           }}
-//         >
-//           <div
-//             style={{
-//               padding: 24,
-//               minHeight: 360,
-//               background: colorBgContainer,
-//             }}
-//           >
-//             content
-//           </div>
-//         </Content>
-//         <Footer
-//           style={{
-//             textAlign: 'center',
-//           }}
-//         >
-//           Ant Design ©2023 Created by Ant UED
-//         </Footer>
-//       </Layout>
-//     </Layout>
-//   );
-// };
-// export default App;

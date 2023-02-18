@@ -13,6 +13,11 @@ const resources = {
         'work-experience': 'Work experience',
         about: 'About',
         contacts: 'Contacts',
+      },
+      footer: {
+        'pdf-cv': 'PDF CV (en)',
+        'source-code': 'Source code (gitHub)',
+        'name': 'Alyona Udod, 2023',
       }
     }
   },
@@ -25,6 +30,11 @@ const resources = {
         about: 'Про мене',
         contacts: 'Контакти',
       }
+    },
+    footer: {
+      'pdf-cv': 'PDF Резюме (анг)',
+      'source-code': 'Код сайту (gitHub)',
+      'name': 'Альона Удод, 2023',
     }
   },
   no: {
@@ -35,6 +45,11 @@ const resources = {
         'work-experience': 'Arbeidserfaring',
         about: 'Om',
         contacts: 'Kontakter',
+      },
+      footer: {
+        'pdf-cv': 'PDF CV (en)',
+        'source-code': 'Kilde (gitHub)',
+        'name': 'Alyona Udod, 2023',
       }
     }
   },
