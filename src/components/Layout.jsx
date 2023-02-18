@@ -2,32 +2,22 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import PropagateLoader from 'react-spinners/PropagateLoader';
 import Navigation from './Navigation/Navigation';
-import { HeaderMenu } from './Layout.styled';
+import { HeaderMenu, StyledFooter } from './Layout.styled';
 import LangMenu from './LangMenu/LangMenu';
 import { Layout, theme } from 'antd';
 import React from 'react';
-const { Header, Content, Footer } = Layout;
+import useWindowSizes from 'hooks/useWindowSizes';
+const { Header, Content } = Layout;
 
 export default function AppLayout() {
   const {
     token: { colorBgContainer, colorPrimary },
   } = theme.useToken();
+  const { height } = useWindowSizes();
 
   return (
     <>
       <Layout>
-        {/* <Sider
-          breakpoint="lg"
-          collapsedWidth="0"
-          onBreakpoint={broken => {
-            console.log(broken);
-          }}
-          onCollapse={(collapsed, type) => {
-            console.log(collapsed, type);
-          }}
-        >
-          <Navigation />
-        </Sider> */}
         <Layout>
           <Header
             style={{
@@ -48,7 +38,7 @@ export default function AppLayout() {
             <div
               style={{
                 padding: 24,
-                minHeight: window.innerHeight - 155,
+                minHeight: height - 155,
                 background: colorBgContainer,
               }}
             >
@@ -57,23 +47,17 @@ export default function AppLayout() {
               </Suspense>
             </div>
           </Content>
-          <Footer
-            style={{
-              textAlign: 'center',
-            }}
+          <StyledFooter
+            // style={{
+            //   textAlign: 'center',
+            // }}
           >
-            Ant Design ©2023 Created by Ant UED
-          </Footer>
+            <a href='https://github.com/AlyonaUdod/cv' rel="noreferrer" target='_blank'> PDF CV </a>
+            <a href='https://github.com/AlyonaUdod/cv' rel="noreferrer" target='_blank'> Source code </a>
+            <p>Alyona Udod, 2023</p>
+          </StyledFooter>
         </Layout>
       </Layout>
-      {/* <HeaderMenu>
-        <Navigation />
-        <LangMenu/>
-      </HeaderMenu>
-
-      <Suspense fallback={<PropagateLoader color="#41d61f" />}>
-        <Outlet />
-      </Suspense> */}
     </>
   );
 }

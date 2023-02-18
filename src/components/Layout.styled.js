@@ -1,5 +1,6 @@
 
 import styled from 'styled-components';
+import { Layout } from 'antd'
 
 export const HeaderMenu = styled.div`
   box-sizing: border-box;
@@ -20,3 +21,10 @@ export const HeaderMenu = styled.div`
     color: #2196f3;
   } */
 `;
+
+export const StyledFooter = styled(Layout.Footer)`
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 18px;
+`

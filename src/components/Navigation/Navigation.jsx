@@ -1,11 +1,12 @@
 import { StyledNavLink, NavLinksWrapper, NavBtn } from './Navigation.styled';
 import { useTranslation } from 'react-i18next';
-import useWindowWidth from 'hooks/useWindowWidth';
+import useWindowSizes from 'hooks/useWindowSizes';
 import { Dropdown, theme } from 'antd';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 export default function Navigation() {
+
   const location = useLocation();
   const [activeLink, setActiveLink] = useState(
     location?.pathname?.slice(1) ?? 'home'
@@ -16,7 +17,7 @@ export default function Navigation() {
       setActiveLink(location?.pathname?.slice(1));
     } else {
       setActiveLink('home');
-    }
+    };
   }, [location.pathname]);
 
   const { t } = useTranslation();
@@ -24,20 +25,17 @@ export default function Navigation() {
     token: { colorPrimary },
   } = theme.useToken();
 
-  const { width } = useWindowWidth();
+  const { width } = useWindowSizes();
 
   const items = [
     {
       key: '1',
-      label: <StyledNavLink to="/">{t('navigation.home')}</StyledNavLink>,
+      label: <StyledNavLink to="/" colorprimary={colorPrimary} key='1'>{t('navigation.home')}</StyledNavLink>,
     },
     {
       key: '2',
       label: (
-        <StyledNavLink
-          to="skills"
-          colorprimary={colorPrimary}
-        >
+        <StyledNavLink to="skills" colorprimary={colorPrimary} key='2'>
           {t('navigation.skills')}
         </StyledNavLink>
       ),
@@ -45,10 +43,7 @@ export default function Navigation() {
     {
       key: '3',
       label: (
-        <StyledNavLink
-          to="work-experience"
-          colorprimary={colorPrimary}
-        >
+        <StyledNavLink to="work-experience" colorprimary={colorPrimary} key='3'>
           {t('navigation.work-experience')}
         </StyledNavLink>
       ),
@@ -56,10 +51,7 @@ export default function Navigation() {
     {
       key: '4',
       label: (
-        <StyledNavLink
-          to="about"
-          colorprimary={colorPrimary}
-        >
+        <StyledNavLink to="about" colorprimary={colorPrimary} key='4'>
           {t('navigation.about')}
         </StyledNavLink>
       ),
@@ -67,10 +59,7 @@ export default function Navigation() {
     {
       key: '5',
       label: (
-        <StyledNavLink
-          to="contacts"
-          colorprimary={colorPrimary}
-        >
+        <StyledNavLink to="contacts" colorprimary={colorPrimary} key='5'>
           {t('navigation.contacts')}
         </StyledNavLink>
       ),
@@ -80,38 +69,7 @@ export default function Navigation() {
   return (
     <>
       {width > 768 ? (
-        <NavLinksWrapper>
-          <StyledNavLink
-            to="/"
-            colorprimary={colorPrimary}
-          >
-            {t('navigation.home')}
-          </StyledNavLink>
-          <StyledNavLink
-            to="skills"
-            colorprimary={colorPrimary}
-          >
-            {t('navigation.skills')}
-          </StyledNavLink>
-          <StyledNavLink
-            to="work-experience"
-            colorprimary={colorPrimary}
-          >
-            {t('navigation.work-experience')}
-          </StyledNavLink>
-          <StyledNavLink
-            to="about"
-            colorprimary={colorPrimary}
-          >
-            {t('navigation.about')}
-          </StyledNavLink>
-          <StyledNavLink
-            to="contacts"
-            colorprimary={colorPrimary}
-          >
-            {t('navigation.contacts')}
-          </StyledNavLink>
-        </NavLinksWrapper>
+        <NavLinksWrapper>{items.map(el => el.label)}</NavLinksWrapper>
       ) : (
         <Dropdown
           menu={{
