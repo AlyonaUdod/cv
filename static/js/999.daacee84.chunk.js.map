@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/999.daacee84.chunk.js","mappings":"uHAUA,UARc,WACZ,OACE,kCAIH,C","sources":["pages/Other/Other.jsx"],"sourcesContent":["import React from 'react';\n\nconst Other = () => {\n  return (\n    <div>\n      Other\n    </div>\n  );\n};\n\nexport default Other;"],"names":[],"sourceRoot":""}

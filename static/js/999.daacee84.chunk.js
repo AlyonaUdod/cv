@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkcv=self.webpackChunkcv||[]).push([[999],{999:function(e,c,n){n.r(c);n(791);var u=n(184);c.default=function(){return(0,u.jsx)("div",{children:"Other"})}}}]);
-//# sourceMappingURL=999.daacee84.chunk.js.map
