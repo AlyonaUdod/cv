@@ -18,6 +18,15 @@ const resources = {
         'pdf-cv': 'PDF CV (en)',
         'source-code': 'Source code (gitHub)',
         'name': 'Alyona Udod, 2023',
+      },
+      contacts: {
+        contacts: 'Contacts',
+        links: 'Links',
+        'mobile-no': 'Mobile (no)',
+        'mobile-ua': 'Mobile (ua)',
+        'e-mail': 'E-mail',
+        copy: 'copy to clipboard',
+        copied: 'copied',
       }
     }
   },
@@ -29,13 +38,22 @@ const resources = {
         'work-experience': 'Досвід роботи',
         about: 'Про мене',
         contacts: 'Контакти',
+      },
+      footer: {
+        'pdf-cv': 'PDF Резюме (анг)',
+        'source-code': 'Код сайту (gitHub)',
+        'name': 'Альона Удод, 2023',
+      },
+      contacts: {
+        contacts: 'Контакти',
+        links: 'Посилання',
+        'mobile-no': 'Мобільний (no)',
+        'mobile-ua': 'Мобільний (ua)',
+        'e-mail': 'E-mail',
+        copy: 'копіювати в буфер',
+        copied: 'зкопійовано!',
       }
     },
-    footer: {
-      'pdf-cv': 'PDF Резюме (анг)',
-      'source-code': 'Код сайту (gitHub)',
-      'name': 'Альона Удод, 2023',
-    }
   },
   no: {
     translation: {
@@ -50,6 +68,15 @@ const resources = {
         'pdf-cv': 'PDF CV (en)',
         'source-code': 'Kilde (gitHub)',
         'name': 'Alyona Udod, 2023',
+      },
+      contacts: {
+        contacts: 'Kontakter',
+        links: 'Lenker',
+        'mobile-no': 'Mobilnummer (no)',
+        'mobile-ua': 'Mobilnummer (ua)',
+        'e-mail': 'E-mail',
+        copy: 'kopiere til utklippstavle',
+        copied: 'kopiert!',
       }
     }
   },
