@@ -6,7 +6,7 @@ export const StyledNavLink = styled(NavLink)`
   padding: 0 12px;
   font-weight: 500;
   color: #2a363b;
-  font-size: 16px;
+  /* font-size: 16px; */
   text-transform: uppercase;
   &.active {
     color: ${props => props.colorprimary ?? props.colorprimary}
@@ -22,6 +22,6 @@ export const NavLinksWrapper = styled.nav`
 export const NavBtn = styled(Button)`
   /* color: ${props => props.colorprimary ?? props.colorprimary} */
   font-weight: 500;
-  font-size: 18px;
+  /* font-size: 18px; */
   text-transform: uppercase;
 `
