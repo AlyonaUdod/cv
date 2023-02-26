@@ -4,6 +4,7 @@ export const resources = {
       navigation: {
         home: 'Home',
         skills: 'Skills',
+        education: 'Education',
         'work-experience': 'Work experience',
         about: 'About',
         contacts: 'Contacts',
@@ -49,6 +50,23 @@ export const resources = {
           'soft5': 'Ability to Learn Quickly',
           'soft6': 'Sense of humor',
         }
+      },
+      education: {
+        fullstack: 'Fullstack React/Node.js developer, GoIT, Kiev',
+        qa: 'QA engeneer, SkillUp, Kiev',
+        sound: 'Sound director, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
+        months: {
+          september: 'september',
+          november: 'november',
+          january: 'january',
+          february: 'february',
+          may: 'may',
+        },
+        content: {
+          fullstack: 'I learned offline in a good group of 13 people where I was a team leader in each of our four projects. It was a good time and a good experience',
+          qa: `It was my first step in IT, but I understood that QA it's not for me and I want to write my own code, not look for bugs`,
+          sound: 'I combined studies with work in film productions',
+        }
       }
     }
   },
@@ -57,6 +75,7 @@ export const resources = {
       navigation: {
         home: 'Головна',
         skills: 'Навички',
+        education: 'Освіта',
         'work-experience': 'Досвід роботи',
         about: 'Про мене',
         contacts: 'Контакти',
@@ -102,6 +121,23 @@ export const resources = {
           'soft5': 'Здатність швидко вчитися',
           'soft6': 'Почуття гумору',
         }
+      },
+      education: {
+        fullstack: 'Fullstack React/Node.js developer, GoIT, Київ',
+        qa: 'QA engeneer, SkillUp, Київ',
+        sound: 'Звукорежисер, Бакалавр, Київський національний університет театру, кіно і телебачення імені Івана Карпенка-Карого, Київ',
+        months: {
+          september: 'вересень',
+          november: 'листопад',
+          january: 'січень',
+          february: 'лютий',
+          may: 'тревень',
+        },
+        content: {
+          fullstack: 'Я навчалася офлайн у хорошій групі з 13 людей, де я була тім лідом в кожному з чотирьох командних проектах. Це був гарний час і гарний досвід',
+          qa: `Це був мій перший досвід в ІТ, але я зрозуміла, що QA це не для мене і я хочу писати власний код, а не шукати баги в чужому`,
+          sound: 'Я поєднувала навчання з роботою в кіно продакшенах',
+        }
       }
     },
   },
@@ -110,6 +146,7 @@ export const resources = {
       navigation: {
         home: 'Hjem',
         skills: 'Ferdigheter',
+        education: 'Utdanning',
         'work-experience': 'Arbeidserfaring',
         about: 'Om',
         contacts: 'Kontakter',
@@ -156,6 +193,23 @@ export const resources = {
           'soft6': 'Sans for humor',
         }
       },
+      education: {
+        fullstack: 'Fullstack React/Node.js utvikler, GoIT, Kiev',
+        qa: 'QA ingeniør, SkillUp, Kiev',
+        sound: 'Lydsjef, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
+        months: {
+          september: 'september',
+          november: 'november',
+          january: 'januar',
+          february: 'februar',
+          may: 'mai',
+        },
+        content: {
+          fullstack: 'Jeg lærte offline i en god gruppe på 13 personer der jeg var teamleder i hvert av våre fire prosjekter. Det var en god tid og en god opplevelse',
+          qa: `Det var min ørste forsøk på IT, men jeg forsto at QA det ikke er for meg, og jeg vil skrive min egen kode, ikke lete etter feil`,
+          sound: 'Jeg kombinerte studier med arbeid i filmproduksjoner',
+        }
+      }
     }
   },
 };

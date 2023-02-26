@@ -51,15 +51,23 @@ export default function Navigation() {
     {
       key: '4',
       label: (
-        <StyledNavLink to="about" colorprimary={colorPrimary} key='4'>
-          {t('navigation.about')}
+        <StyledNavLink to="education" colorprimary={colorPrimary} key='4'>
+          {t('navigation.education')}
         </StyledNavLink>
       ),
     },
     {
       key: '5',
       label: (
-        <StyledNavLink to="contacts" colorprimary={colorPrimary} key='5'>
+        <StyledNavLink to="about" colorprimary={colorPrimary} key='5'>
+          {t('navigation.about')}
+        </StyledNavLink>
+      ),
+    },
+    {
+      key: '6',
+      label: (
+        <StyledNavLink to="contacts" colorprimary={colorPrimary} key='6'>
           {t('navigation.contacts')}
         </StyledNavLink>
       ),

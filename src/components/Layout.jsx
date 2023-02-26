@@ -1,6 +1,5 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import PropagateLoader from 'react-spinners/PropagateLoader';
 import Navigation from './Navigation/Navigation';
 import { useTranslation } from 'react-i18next';
 import {
@@ -13,11 +12,12 @@ import LangMenu from './LangMenu/LangMenu';
 import { Layout, theme } from 'antd';
 import React from 'react';
 import useWindowSizes from 'hooks/useWindowSizes';
+import Loader from './Loader/Loader';
 const { Header, Content } = Layout;
 
 export default function AppLayout() {
   const {
-    token: { colorBgContainer, colorPrimary },
+    token: { colorBgContainer },
   } = theme.useToken();
   const { height } = useWindowSizes();
   const { t } = useTranslation();
@@ -30,6 +30,10 @@ export default function AppLayout() {
             style={{
               padding: '0 20px',
               background: colorBgContainer,
+              position: 'sticky',
+              top: 0,
+              zIndex: 1,
+              width: '100%',
             }}
           >
             <HeaderMenu>
@@ -47,9 +51,10 @@ export default function AppLayout() {
                 padding: 24,
                 minHeight: height - 155,
                 background: colorBgContainer,
+                overflow: 'auto'
               }}
             >
-              <Suspense fallback={<PropagateLoader color={colorPrimary} />}>
+              <Suspense fallback={<Loader />}>
                 <Outlet />
               </Suspense>
             </div>
@@ -67,7 +72,7 @@ export default function AppLayout() {
               rel="noreferrer"
               target="_blank"
             >
-{t('footer.source-code')}
+              {t('footer.source-code')}
             </StyledFooterLink>
             <StyledFooterText>{t('footer.name')}</StyledFooterText>
           </StyledFooter>
