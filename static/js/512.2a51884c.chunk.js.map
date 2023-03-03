@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/512.2a51884c.chunk.js","mappings":"yHAUA,UARW,WACT,OACE,+BAIH,C","sources":["pages/IT/IT.jsx"],"sourcesContent":["import React from 'react';\n\nconst IT = () => {\n  return (\n    <div>\n      IT\n    </div>\n  );\n};\n\nexport default IT;"],"names":[],"sourceRoot":""}
