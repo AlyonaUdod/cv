@@ -59,14 +59,6 @@ export default function Navigation() {
     {
       key: '5',
       label: (
-        <StyledNavLink to="about" colorprimary={colorPrimary} key='5'>
-          {t('navigation.about')}
-        </StyledNavLink>
-      ),
-    },
-    {
-      key: '6',
-      label: (
         <StyledNavLink to="contacts" colorprimary={colorPrimary} key='6'>
           {t('navigation.contacts')}
         </StyledNavLink>

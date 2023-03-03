@@ -13,7 +13,6 @@ const WorkExperience = () => {
   return (
     <Row gutter={24}>
       <Col xs={24}>
-        {/* <Card title={t('navigation.education')}> */}
         <StyledInnerCard type="inner" title={t('work-experience.mentor')}>
           <StyledSubTitle>
             {t('months.february')} 2022 - {t('months.till-now')}
@@ -58,7 +57,6 @@ const WorkExperience = () => {
           </StyledSubTitle>
           <StyledText>{t('work-experience.content.films')}.</StyledText>
         </StyledInnerCard>
-        {/* </Card> */}
       </Col>
     </Row>
   );

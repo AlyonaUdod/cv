@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, Progress, Row, Col, List } from 'antd';
 import { StyledListItem, StyledItemTitle } from 'common/CommonStyledComponents.styled'
-import { languages, skills } from './source';
+import { languages, skills } from 'common/source';
 
 const Skills = () => {
   const { t } = useTranslation();
