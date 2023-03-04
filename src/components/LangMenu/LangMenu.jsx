@@ -51,7 +51,7 @@ const LangMenu = () => {
             alt="ua-flag"
           />
           <LangText>{i18n.language}</LangText>
-        </LangWrapper> 
+        </LangWrapper>
       </Dropdown.Button>
     </div>
   );

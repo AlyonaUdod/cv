@@ -27,7 +27,6 @@ export const StyledFooter = styled(Layout.Footer)`
 `
 
 export const StyledFooterLink = styled.a`
-  /* font-size: 16px; */
   font-weight: 500;
   margin-right: 20px;
   @media (max-width: 520px) {
@@ -37,6 +36,5 @@ export const StyledFooterLink = styled.a`
 `
 
 export const StyledFooterText = styled.p`
-  /* font-size: 16px; */
   font-weight: 500;
 `
