@@ -19,6 +19,15 @@ export const HomeCard = styled(Card)`
   }
 `;
 
+export const AvatarWrapper = styled.div`
+  min-width: 280px;
+  padding-left: 15%;
+  /* flex-grow: 1; */
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`
+
 export const Avatar = styled.img`
   width: 280px;
   border-radius: 5px;

@@ -1,8 +1,14 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import avatar from 'assets/avatar.jpg';
-import { HomeCard, Avatar, TextWrapper, Text } from './Home.styled';
-import { Card, Row, Col, List } from 'antd';
+import {
+  HomeCard,
+  AvatarWrapper,
+  Avatar,
+  TextWrapper,
+  Text,
+} from './Home.styled';
+import { Card, Row, Col, List, Spin } from 'antd';
 import {
   StyledListItem,
   StyledItemTitle,
@@ -16,7 +22,13 @@ const Home = () => {
     <Row gutter={24}>
       <Col xs={24} xl={16}>
         <HomeCard>
-          <Avatar src={avatar} alt="avatar" />
+          {!avatar ? (
+            <AvatarWrapper>
+              <Spin />
+            </AvatarWrapper>
+          ) : (
+            <Avatar src={avatar} alt="avatar" />
+          )}
           <TextWrapper>
             <Card>
               <Text>{t('home.summary')}</Text>
