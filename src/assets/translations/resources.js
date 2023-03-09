@@ -53,12 +53,12 @@ export const resources = {
         },
         soft: 'Soft Skills',
         softs: {
-          soft1: 'Ability to work both independently and in a team', // 'Leadership and Teamwork', // Ability to work both independently and in a team
+          soft1: 'Ability to work independently and in a team producing maximum results', // 'Leadership and Teamwork', // Ability to work both independently and in a team
           soft2: 'Critical thinking and problem solving',
           soft3: 'Flexibility and Adaptability',
           soft4: 'Organizational Skills',
           soft5: 'Ability to Learn Quickly',
-          soft6: 'Sense of humor',
+          soft6: 'Good sense of humour',
         },
       },
       education: {
@@ -68,9 +68,9 @@ export const resources = {
           'Sound director, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
         content: {
           fullstack:
-            'I learned offline in a good group of 13 people where I was a team leader in each of our four projects. It was a good time and a good experience',
+            'I have learned offline in a good group of 13 people where I was a team leader in each of our four projects. It was a good time and a good experience',
           qa: `It was my first step in IT, but I understood that QA it's not for me and I want to write my own code, not look for bugs`,
-          sound: 'I combined studies with work in film productions',
+          sound: 'I combined studies with work in a cinema productions',
         },
       },
       'work-experience': {
@@ -82,34 +82,34 @@ export const resources = {
           mentor1:
             'Working as a React mentor on React block of the Fullstack course at the ',
           mentor2:
-            ' school where my frontend development journey began 5 years ago .This work aims to improve my ability to communicate with different people and find the best solution for explaining the material',
+            ' school where my frontend development journey began 5 years ago. Aims of this work is to improve my abilityof communication with different people and find the best solution for material explanation',
           developer:
-            'Worked as a front-end developer (React, Vue, Next, Nuxt, simple html/css/js) on different projects. CRM for medical company, charity sport event app, “white box” for bank system, etc. I like to work with data and implement the most user-friendly interface for interacting with it',
-          dau: `Started work as an assistant to a sound engineer, and grew up to sound engineer and then supervisor of sound engineers on the `,
+            'Worked as a front-end developer (React, Vue, Next, Nuxt, simple html/css/js) on different projects. CRM for medical company, charity sport event app, “white box” for bank system, etc. I like to work with data and create the most user-friendly interface for interacting with it',
+          dau: `Started work as an assistant of a sound engineer, and grew up to sound engineer and then supervisor of sound engineers on the `,
           films:
-            'Worked as an assistant to the director, then assistant to the sound engeneer, and an end as a sound engineer with my own assistance on more than 50 on more than 50 commercials, movies, TV-shows',
+            'Worked as an assistant of the director, then assistant of the sound engeneer, and an end as a sound engineer with my own assistance on more than 50 on more than 50 commercials, movies, TV-shows',
         },
       },
       home: {
-        summary: `Highly qualified front-end developer with good management skills. First I think about what I have to do, and only after full understanding do I get to work. The QA inside my mind is doing the work before a real QA engineer. I like to work in a team, but I can also be a solo front-end developer on a project. I'm currently learning Norwegian and working (part-time) as a React mentor in IT courses. I'm looking for a full-time job as a front-end developer.`,
+        summary: `I'm highly qualified front-end developer with good management skills. First I think about what I have to do, and only after full understanding do I start working. The QA inside my mind is doing the work before a real QA engineer. I like to work in a team, but I can also be a solo front-end developer on a project. I'm currently learning Norwegian and working (part-time) as a React mentor in IT courses. I'm looking for a full-time job as a front-end developer.`,
         principle: 'Basic principles at work',
         principles: {
           principle1: 'Honesty and openness in the team, we make a common project',
           principle2: 'Flexibility, the main thing is the general style of writing code in a team',
-          principle3: 'Minimum code/files/folders in main situations',
-          principle4: 'If there are some problems I report them immediately',
+          principle3: 'Minimum code/files/folders in most situations',
+          principle4: 'If there are some problems I report about them immediately',
         },
         fact: 'Facts',
         facts: {
           fact1:
-            'I like attending concerts and festivals of my favorite music. My favorite musicians are Oomph!, Three Days Grace, AFI, Paradise Lost, etc.',
+            'I like attending concerts and festivals of my favorite music. My favorite music bands are Oomph!, Three Days Grace, AFI, Paradise Lost, etc.',
           fact2:
             'I like to travel and get to know new places, cities, and countries. My personal meditation - is to be on the way.',
           fact3:
-            'I like to knit and listen to books. I watch YouTube at 1.5 speed.',
+            `I like to knit and listen to audiobooks. I'm watching YouTube at 1.5 speed.`,
           fact4:
-            'I like to play board games, for me the main thing is not to win, but to have fun with friends, my favorite game is "Mansions of Madness: Second Edition".',
-          fact5: `I like coffee, cinnamon and any seafood.`,
+            'I like to play board games, for me the main thing is not to win, but to have fun with friends, my favorite board game is "Mansions of Madness: Second Edition".',
+          fact5: `I like coffee, cinnamon and any kind of seafood.`,
           fact6:
             'I like to work and like to learn something new. For now, I spend my free time for work as an education mentor and learning Norwegian.',
         },
