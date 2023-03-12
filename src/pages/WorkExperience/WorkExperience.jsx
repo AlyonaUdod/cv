@@ -13,6 +13,14 @@ const WorkExperience = () => {
   return (
     <Row gutter={24}>
       <Col xs={24}>
+        <StyledInnerCard type="inner" title={t('work-experience.norwegian')}>
+          <StyledSubTitle>
+            {t('months.november')} 2022 - {t('months.till-now')}
+          </StyledSubTitle>
+          <StyledText>
+            {t('work-experience.content.norwegian')}.
+          </StyledText>
+        </StyledInnerCard>
         <StyledInnerCard type="inner" title={t('work-experience.mentor')}>
           <StyledSubTitle>
             {t('months.february')} 2022 - {t('months.till-now')}

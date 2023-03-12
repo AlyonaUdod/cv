@@ -74,11 +74,13 @@ export const resources = {
         },
       },
       'work-experience': {
+        norwegian: 'Participant of introduction program, Bærum municipality, Sandvika',
         mentor: 'Education mentor (React), GoIT, Remote',
         developer: 'Frontend developer, DDA Production, Kiev',
         dau: 'Sound engineer, Phenomen Production UK, Kiev',
         films: 'Sound engineer on set, TV productions, Kiev',
         content: {
+          norwegian: 'I’m currently on an introduction program, learning Norwegian. 5 days per week, 30 hours. I want to work and now I feel that can do my job well, not just study.',
           mentor1:
             'Working as a React mentor on React block of the Fullstack course at the ',
           mentor2:
@@ -191,11 +193,13 @@ export const resources = {
         },
       },
       'work-experience': {
+        norwegian: 'Учасник інтродукційної програми, муніципалітет Берум, Сандвіка',
         mentor: 'Ментор React, GoIT, Віддалено',
         developer: 'Frontend developer, DDA Production, Київ',
         dau: 'Звукорежисер пост-продакшену, Phenomen Production UK, Київ',
         films: 'Звукорежисер на знімальному майданчику, Київ',
         content: {
+          norwegian: 'Зараз я на інтро-програмі, вивчаю норвезьку мову. 5 днів на тиждень, 30 годин. Я хочу працювати і зараз відчуваю, що можу добре виконувати свою роботу, а не тільки вчитися',
           mentor1:
             'Працюючи ментором React над блоком React курсу Fullstack у ',
           mentor2:
@@ -308,11 +312,13 @@ export const resources = {
         },
       },
       'work-experience': {
+        norwegian: 'Deltaker i introduksjonsprogram, Bærum kommune, Sandvika',
         mentor: 'Utdanningsmentor (React), GoIT, Remote',
         developer: 'Frontend utvikler, DDA Production, Kiev',
         dau: 'Lydtekniker, Phenomen Production UK, Kiev',
         films: 'Lydtekniker på settet, TV-produksjoner, Kiev',
         content: {
+          norwegian: 'Jeg går for tiden på et introduksjonsprogram og lærer norsk. 5 dager i uken i 30 timer. Jeg vil jobbe og føler nå at jeg kan gjøre jobben min bra og ikke bare studere',
           mentor1:
             'Jobber som React-mentor på React-blokken på Fullstack-kurset på ',
           mentor2:
