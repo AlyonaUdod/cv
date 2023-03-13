@@ -13,14 +13,14 @@ const WorkExperience = () => {
   return (
     <Row gutter={24}>
       <Col xs={24}>
-        <StyledInnerCard type="inner" title={t('work-experience.norwegian')}>
+        {/* <StyledInnerCard type="inner" title={t('work-experience.norwegian')}>
           <StyledSubTitle>
             {t('months.november')} 2022 - {t('months.till-now')}
           </StyledSubTitle>
           <StyledText>
             {t('work-experience.content.norwegian')}.
           </StyledText>
-        </StyledInnerCard>
+        </StyledInnerCard> */}
         <StyledInnerCard type="inner" title={t('work-experience.mentor')}>
           <StyledSubTitle>
             {t('months.february')} 2022 - {t('months.till-now')}
@@ -43,7 +43,7 @@ const WorkExperience = () => {
           </StyledSubTitle>
           <StyledText>{t('work-experience.content.developer')}.</StyledText>
         </StyledInnerCard>
-        <StyledInnerCard type="inner" title={t('work-experience.dau')}>
+        {/* <StyledInnerCard type="inner" title={t('work-experience.dau')}>
           <StyledSubTitle>
             {t('months.august')} 2014 - {t('months.september')} 2018
           </StyledSubTitle>
@@ -57,14 +57,14 @@ const WorkExperience = () => {
               DAU Project
             </StyledLink>
             .
-          </StyledText>
-        </StyledInnerCard>
-        <StyledInnerCard type="inner" title={t('work-experience.films')}>
+          </StyledText>-
+        </StyledInnerCard> */}
+        {/* <StyledInnerCard type="inner" title={t('work-experience.films')}>
           <StyledSubTitle>
             2011 - 2018
           </StyledSubTitle>
           <StyledText>{t('work-experience.content.films')}.</StyledText>
-        </StyledInnerCard>
+        </StyledInnerCard> */}
       </Col>
     </Row>
   );

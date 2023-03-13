@@ -75,7 +75,7 @@ export const resources = {
       },
       'work-experience': {
         norwegian: 'Participant of introduction program, Bærum municipality, Sandvika',
-        mentor: 'Education mentor (React), GoIT, Remote',
+        mentor: 'Education mentor (React), GoIT, Part-time, Remote',
         developer: 'Frontend developer, DDA Production, Kiev',
         dau: 'Sound engineer, Phenomen Production UK, Kiev',
         films: 'Sound engineer on set, TV productions, Kiev',
@@ -194,7 +194,7 @@ export const resources = {
       },
       'work-experience': {
         norwegian: 'Учасник інтродукційної програми, муніципалітет Берум, Сандвіка',
-        mentor: 'Ментор React, GoIT, Віддалено',
+        mentor: 'Ментор React, GoIT, Часткова зайнятість, Віддалено',
         developer: 'Frontend developer, DDA Production, Київ',
         dau: 'Звукорежисер пост-продакшену, Phenomen Production UK, Київ',
         films: 'Звукорежисер на знімальному майданчику, Київ',
@@ -313,7 +313,7 @@ export const resources = {
       },
       'work-experience': {
         norwegian: 'Deltaker i introduksjonsprogram, Bærum kommune, Sandvika',
-        mentor: 'Utdanningsmentor (React), GoIT, Remote',
+        mentor: 'Utdanningsmentor (React), GoIT, Deltidsarbeid, Remote',
         developer: 'Frontend utvikler, DDA Production, Kiev',
         dau: 'Lydtekniker, Phenomen Production UK, Kiev',
         films: 'Lydtekniker på settet, TV-produksjoner, Kiev',
