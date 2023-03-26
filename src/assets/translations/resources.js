@@ -63,14 +63,14 @@ export const resources = {
       },
       education: {
         fullstack: 'Fullstack React/Node.js developer, GoIT, Kiev',
-        qa: 'QA engeneer, SkillUp, Kiev',
+        qa: 'QA engineer, SkillUp, Kiev',
         sound:
-          'Sound director, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
+          'Sound engineer, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
         content: {
           fullstack:
             'I have learned offline in a good group of 13 people where I was a team leader in each of our four projects. It was a good time and a good experience',
           qa: `It was my first step in IT, but I understood that QA it's not for me and I want to write my own code, not look for bugs`,
-          sound: 'I combined studies with work in a cinema productions',
+          sound: 'I combined studies with work in a movie productions',
         },
       },
       'work-experience': {
@@ -303,7 +303,7 @@ export const resources = {
         fullstack: 'Fullstack React/Node.js utvikler, GoIT, Kiev',
         qa: 'QA ingeniør, SkillUp, Kiev',
         sound:
-          'Lydsjef, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
+          'Lyd ingeniør, Bachelor, The Kiev National I. K. Karpenko-Kary Theatre, Cinema and Television University, Kiev',
         content: {
           fullstack:
             'Jeg lærte offline i en god gruppe på 13 personer der jeg var teamleder i hvert av våre fire prosjekter. Det var en god tid og en god opplevelse',
