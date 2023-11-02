@@ -61,7 +61,7 @@ export default function AppLayout() {
           </Content>
           <StyledFooter style={{ padding: '24px 20px' }}>
             <StyledFooterLink
-              href="https://drive.google.com/file/d/15FDJlYNOVPEcbCqt2x0nU04Im1uzH79S/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZCBMMi2Wvlm0eyExG8Oe1nSwfTEdFPMC/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
             >
