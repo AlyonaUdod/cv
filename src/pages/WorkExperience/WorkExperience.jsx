@@ -21,6 +21,14 @@ const WorkExperience = () => {
             {t('work-experience.content.norwegian')}.
           </StyledText>
         </StyledInnerCard> */}
+        <StyledInnerCard type="inner" title={t('work-experience.vieross')}>
+          <StyledSubTitle>
+            {t('months.june')} 2023 - {t('months.september')} 2023
+          </StyledSubTitle>
+          <StyledText>
+            {t('work-experience.content.vieross')}.
+          </StyledText>
+        </StyledInnerCard>
         <StyledInnerCard type="inner" title={t('work-experience.mentor')}>
           <StyledSubTitle>
             {t('months.february')} 2022 - {t('months.till-now')}

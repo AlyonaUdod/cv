@@ -16,6 +16,7 @@ export const resources = {
         february: 'february',
         april: 'april',
         may: 'may',
+        june: 'june',
         august: 'august',
         'till-now': 'till now',
       },
@@ -75,12 +76,14 @@ export const resources = {
       },
       'work-experience': {
         norwegian: 'Participant of introduction program, Bærum municipality, Sandvika',
-        mentor: 'Education mentor (React), GoIT, Part-time, Remote',
-        developer: 'Frontend developer, DDA Production, Kiev',
+        vieross: 'Software Engineer, Vieross, Part-time, Oslo (Norway)',
+        mentor: 'Education mentor (React.js/Node.js), GoIT, Part-time, Remote',
+        developer: 'Frontend developer, DDA Production, Full-time, Kiev (Ukraine)',
         dau: 'Sound engineer, Phenomen Production UK, Kiev',
         films: 'Sound engineer on set, TV productions, Kiev',
         content: {
           norwegian: 'I’m currently on an introduction program, learning Norwegian. 5 days per week, 30 hours. I want to work and now I feel that can do my job well, not just study.',
+          vieross: 'I created MVP for the company in 3 months. Together with the owner of the company, we developed the business logic and implemented it in an application. Now the owner can sell the application to potential investors. I used Node.js/React.js for this application',
           mentor1:
             'Working as a React mentor on React block of the Fullstack course at the ',
           mentor2:
@@ -135,6 +138,7 @@ export const resources = {
         february: 'лютий',
         april: 'квітень',
         may: 'травень',
+        june: 'червень',
         august: 'серпень',
         'till-now': 'зараз',
       },
@@ -195,11 +199,13 @@ export const resources = {
       'work-experience': {
         norwegian: 'Учасник інтродукційної програми, муніципалітет Берум, Сандвіка',
         mentor: 'Ментор React, GoIT, Часткова зайнятість, Віддалено',
-        developer: 'Frontend developer, DDA Production, Київ',
+        vieross: 'Розробник, Vieross, Часткова зайнятість, Осло (Норвегія)',
+        developer: 'Frontend developer, DDA Production, Київ (Україна)',
         dau: 'Звукорежисер пост-продакшену, Phenomen Production UK, Київ',
         films: 'Звукорежисер на знімальному майданчику, Київ',
         content: {
           norwegian: 'Зараз я на інтро-програмі, вивчаю норвезьку мову. 5 днів на тиждень, 30 годин. Я хочу працювати і зараз відчуваю, що можу добре виконувати свою роботу, а не тільки вчитися',
+          vieross: 'Я створила MVP для компанії за 3 місяці. Разом із власником компанії ми розробили бізнес-логіку та реалізували її в додатку. Тепер власник може продати додаток потенційним інвесторам. Я використовував Node.js/React.js для цієї програми',
           mentor1:
             'Працюючи ментором React над блоком React курсу Fullstack у ',
           mentor2:
@@ -254,6 +260,7 @@ export const resources = {
         february: 'februar',
         april: 'april',
         may: 'mai',
+        june: 'juni',
         august: 'august',
         'till-now': 'til nå',
       },
@@ -313,12 +320,14 @@ export const resources = {
       },
       'work-experience': {
         norwegian: 'Deltaker i introduksjonsprogram, Bærum kommune, Sandvika',
-        mentor: 'Utdanningsmentor (React), GoIT, Deltidsarbeid, Remote',
-        developer: 'Frontend utvikler, DDA Production, Kiev',
+        mentor: 'Utdanningsmentor (React.js/Node.js), GoIT, Hjemmekontor, Deltidsjobb',
+        vieross: 'Software Engineer, Vieross, Oslo (Norge), Deltidsjobb',
+        developer: 'Frontend utvikler, DDA Production, Kiev (Ukraine), Fastjobb',
         dau: 'Lydtekniker, Phenomen Production UK, Kiev',
         films: 'Lydtekniker på settet, TV-produksjoner, Kiev',
         content: {
           norwegian: 'Jeg går for tiden på et introduksjonsprogram og lærer norsk. 5 dager i uken i 30 timer. Jeg vil jobbe og føler nå at jeg kan gjøre jobben min bra og ikke bare studere',
+          vieross: 'Jeg opprettet MVP for selskapet på 3 måneder. Sammen med eieren av selskapet utviklet vi forretningslogikken og implementerte den i en applikasjon. Nå kan eieren selge applikasjonen til potensielle investorer. Jeg brukte Node.js/React.js for denne applikasjonen',
           mentor1:
             'Jobber som React-mentor på React-blokken på Fullstack-kurset på ',
           mentor2:
