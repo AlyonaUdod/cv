@@ -23,7 +23,7 @@ export const resources = {
       footer: {
         'pdf-cv': 'PDF CV (en)',
         'source-code': 'Source code (gitHub)',
-        name: 'Alyona Udod, 2023',
+        name: 'Alona Udod, 2023',
       },
       contacts: {
         contacts: 'Contacts',
@@ -40,9 +40,9 @@ export const resources = {
           tech1: 'HTML, CSS/SASS/SCSS, JS',
           tech2: 'React.js/React Redux/React Router(5/6)',
           tech3: 'Vue.js/Vuex, Next.js/Nuxt.js, SPA/PWA',
-          tech4: 'Ant Design, Material-UI, D3.js',
+          tech4: 'Element Plus, Ant Design, Material-UI, D3.js',
           // 'tech6': ' Styled Components/CSS Modules',
-          tech5: 'Node.js/Express/MongoDB, Socket.io',
+          tech5: 'Node.js/Express/MongoDB, Socket.io, PHP(based)',
           tech6: 'Scrum, Agile Jira, Trello. Git',
         },
         lang: 'Languages',
@@ -96,7 +96,7 @@ export const resources = {
         },
       },
       home: {
-        summary: `I'm highly qualified front-end developer with good management skills. First I think about what I have to do, and only after full understanding do I start working. The QA inside my mind is doing the work before a real QA engineer. I like to work in a team, but I can also be a solo front-end developer on a project. I'm currently learning Norwegian and working (part-time) as a React mentor in IT courses. I'm looking for a full-time job as a front-end developer.`,
+        summary: `I am highly qualified front-end developer with good management skills. First I think about what I have to do, and only after full understanding do I start working. The QA inside my mind is doing the work before a real QA engineer. I like to work in a team, but I can also be a solo-worker on a project.`,
         principle: 'Basic principles at work',
         principles: {
           principle1: 'Honesty and openness in the team, we make a common project',
@@ -162,9 +162,9 @@ export const resources = {
           tech1: 'HTML, CSS/SASS/SCSS, JS',
           tech2: 'React.js/React Redux/React Router(5/6)',
           tech3: 'Vue.js/Vuex, Next.js/Nuxt.js, SPA/PWA',
-          tech4: 'Ant Design, Material-UI, D3.js',
+          tech4: 'Element Plus, Ant Design, Material-UI, D3.js',
           // 'tech6': ' Styled Components/CSS Modules',
-          tech5: 'Node.js/Express/MongoDB, Socket.io',
+          tech5: 'Node.js/Express/MongoDB, Socket.io, PHP(based)',
           tech6: 'Scrum, Agile Jira, Trello. Git',
         },
         lang: 'Мови',
@@ -218,7 +218,7 @@ export const resources = {
         },
       },
       home: {
-        summary: `Висококваліфікований фронтенд розробник з гарними менеджерськими скілами. Спочатку я думаю про те, що маю робити, і лише після повного розуміння приступаю до роботи. QA інженер в моєму розумі виконує роботу раніше, ніж справжній QA. Мені подобається працювати в команді, але я також можу бути самостійним фронтенд-розробником на проекті. Зараз я вивчаю норвезьку мову та працюю (неповний робочий день) ментором React на курсах IT. Шукаю роботу фронтенд розробником на повний робочий день.`,
+        summary: `Висококваліфікований фронтенд розробник з гарними менеджерськими скілами. Спочатку я думаю про те, що маю робити, і лише після повного розуміння приступаю до роботи. QA інженер в моєму розумі виконує роботу раніше, ніж справжній QA. Мені подобається працювати в команді, але я також можу бути самостійним розробником на проекті.`,
         principle: 'Основні принципи в роботі',
         principles: {
           principle1: 'Чесність і відкритість в команді, ми робимо спільний проект',
@@ -267,7 +267,7 @@ export const resources = {
       footer: {
         'pdf-cv': 'PDF CV (en)',
         'source-code': 'Kilde (gitHub)',
-        name: 'Alyona Udod, 2023',
+        name: 'Alona Udod, 2023',
       },
       contacts: {
         contacts: 'Kontakter',
@@ -284,9 +284,9 @@ export const resources = {
           tech1: 'HTML, CSS/SASS/SCSS, JS',
           tech2: 'React.js/React Redux/React Router(5/6)',
           tech3: 'Vue.js/Vuex, Next.js/Nuxt.js, SPA/PWA',
-          tech4: 'Ant Design, Material-UI, D3.js',
+          tech4: 'Element Plus, Ant Design, Material-UI, D3.js',
           // 'tech6': ' Styled Components/CSS Modules',
-          tech5: 'Node.js/Express/MongoDB, Socket.io',
+          tech5: 'Node.js/Express/MongoDB, Socket.io, PHP(based)',
           tech6: 'Scrum, Agile Jira, Trello. Git',
         },
         lang: 'Språk',
@@ -340,7 +340,7 @@ export const resources = {
         },
       },
       home: {
-        summary: `Høyt kvalifisert frontendutvikler med gode lederegenskaper. Først tenker jeg på hva jeg må gjøre, og først etter at jeg har full forståelse kommer jeg i gang. QA i mitt sinn gjør jobben før en ekte QA-ingeniør. Jeg liker å jobbe i et team, men jeg kan også være en individuell front-end utvikler av et prosjekt. Jeg lærer for tiden norsk og jobber (deltid) som React-mentor for IT-kurs. Jeg ser etter en fulltids front-end utviklerjobb.`,
+        summary: `Høyt kvalifisert frontendutvikler med gode lederegenskaper. Først tenker jeg på hva jeg må gjøre, og først etter at jeg har full forståelse, begynner jeg å jobbe. En QA-ingeniør i mitt sinn fungerer før en ekte QA. Jeg liker å jobbe i team, men jeg kan også være en selvstendig utvikler på et prosjekt.`,
         principle: 'Grunnleggende prinsipper på jobb',
         principles: {
           principle1: 'Ærlighet og åpenhet i teamet, vi gjør et felles prosjekt',
